@@ -105,7 +105,7 @@ def main():
         elif saida_base == 4:
             resultado = dec_to_hex(decimal)
         
-        print(f"O número convertido é: {resultado}")
+        print(f"O número convertido para a nova base é igual a : {resultado}")
     
     except ValueError as e:
         print(f"Erro: {e}")
